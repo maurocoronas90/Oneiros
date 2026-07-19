@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,23 +14,58 @@
 
 <body>
 
-<div id="particles"></div>
+<!-- Landing -->
 
 <div id="landing">
 
-<h1>ONEIROS</h1>
+    <!-- Sfondo animato -->
+    <div id="background"></div>
 
-<p id="phrase">
-Ogni sogno appartiene a qualcuno.
-</p>
+    <!-- Fili di luce -->
+    <canvas id="lightCanvas"></canvas>
 
-<button id="enter">
-ENTER THE DREAM
-</button>
+    <!-- Lampo bianco -->
+    <div id="flash"></div>
+
+    <!-- Punto nero -->
+    <div id="blackHole"></div>
+
+    <!-- Logo -->
+    <div id="logoContainer">
+
+        <img
+            id="logo"
+            src="logo.png"
+            alt="ONEIROS">
+
+    </div>
+
+</div>
+
+<!-- Home -->
+
+<div id="home">
+
+    <canvas id="globeCanvas"></canvas>
+
+    <div id="menu">
+
+        <h1>ONEIROS</h1>
+
+        <button>PILOT</button>
+
+        <button>WORLD</button>
+
+        <button>CHARACTERS</button>
+
+        <button>FOLLOW</button>
+
+    </div>
 
 </div>
 
 <script src="script.js"></script>
 
 </body>
+
 </html>
