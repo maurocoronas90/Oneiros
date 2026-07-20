@@ -1,71 +1,30 @@
 <!DOCTYPE html>
 <html lang="it">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONEIROS</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>ONEIROS</title>
-
-<link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- Landing -->
+<div class="container">
 
-<div id="landing">
+    <img id="logo" src="logo.png" alt="ONEIROS Logo">
 
-    <!-- Sfondo animato -->
-    <div id="background"></div>
+    <p class="subtitle">
+        Ogni sogno nasce libero.<br>
+        Alcuni aspettano solo di essere letti.
+    </p>
 
-    <!-- Fili di luce -->
-    <canvas id="lightCanvas"></canvas>
-
-    <!-- Lampo bianco -->
-    <div id="flash"></div>
-
-    <!-- Punto nero -->
-    <div id="blackHole"></div>
-
-    <!-- Logo -->
-    <div id="logoContainer">
-
-        <img
-            id="logo"
-            src="logo.png"
-            alt="ONEIROS">
-
-    </div>
-
-</div>
-
-<!-- Home -->
-
-<div id="home">
-
-    <canvas id="globeCanvas"></canvas>
-
-    <div id="menu">
-
-        <h1>ONEIROS</h1>
-
-        <button>PILOT</button>
-
-        <button>WORLD</button>
-
-        <button>CHARACTERS</button>
-
-        <button>FOLLOW</button>
-
-    </div>
+    <button id="readButton">
+        LEGGI IL PILOT
+    </button>
 
 </div>
 
 <script src="script.js"></script>
 
 </body>
-
 </html>
